@@ -1,0 +1,146 @@
+.dash-home{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color:  var(--backColor);
+    /* padding-top: 100px;
+    padding-left: 2rem;
+    padding-right: 2rem; */
+    padding: 100px 2rem 50px 2rem;
+}
+.home-panel{
+    display: flex;
+    align-items: center;
+}
+.home-user{
+    width: 50%;
+}
+.home-image{
+    width: 50%;
+}
+
+.home-image img{
+    margin-left: 50px;
+    width: 60%;
+    border-radius: 30px;
+}
+
+@media (max-width:768px){
+    .home-image{
+        display: none;
+    }
+    .home-user{
+        width: 100%;
+    }
+}
+
+
+.user-name{
+    padding-top: 50px;
+}
+.user-para {
+    margin: 10px 0;
+}
+
+.url-input button{
+    width: 100px;
+    height: 50px;
+    color: black;
+    align-self: flex-end;
+    font-size: 0.8rem;
+    border-radius: 15px;
+}
+.url-input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    margin-bottom: 30px;
+}
+.url-input input{
+    color :black;
+    font-size: 1rem;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+
+.url-result{
+    width: 100%;
+    height: auto;
+    border: 2px solid var(--lite);
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.fetch-result{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+/* URL RESULT CSS */
+.url-name{
+    padding: 1rem;
+}
+.url-name h3{
+    font-size: 2rem;
+    text-align: center;
+}
+.link-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    width: 50%;
+}
+.url-org,.url-gen{
+    margin: 20px;
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid var(--lite);
+
+    border-radius: 25px;
+    text-align: center;
+
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    background-color: white;
+
+    overflow: scroll;
+}
+
+.url-copy{
+    border: 1px solid var(--lite);
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+
+/* QR RESULT CSS */
+.qr-result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.qr{
+    height: 300px;
+    width: 300px;
+    border: 1px solid var(--lite);
+    margin-bottom: 2rem;
+}
+
+.qr-down{
+    border: 1px solid var(--lite);
+    padding: 10px;
+    border-radius: 30px;
+}
+

@@ -1,0 +1,148 @@
+body{
+    background-color: var(--backColor);
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.dash{
+    width: 100%;
+    
+    box-sizing: border-box;
+    background-color: var(--backColor);
+    padding:100px 2rem 50px 2rem;
+}
+
+.dash-head{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+
+/* URL LIST CSS */
+.url-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.url-data{
+    /* background-color: #4a4a4d; */
+
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+
+    border-radius: 40px;
+    
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.url-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.url-NumName{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-sizing: border-box;
+}
+.url-Name{
+    font-size: 1.5rem;
+    overflow: hidden;
+    max-width: 80%;
+}
+.url-number{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    color: black;
+}
+.url-action-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+}
+.url-action-icon div{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+}
+.url-action-delete:hover{
+    background-color: rgb(236, 105, 105);
+}
+.url-action-update:hover{
+    background-color: rgb(231, 245, 108);
+}
+
+.url-meta{
+    padding-left: 10px;
+}
+.url-link-store{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.url-link-store h4{
+    margin-right: 5px;
+}
+.url-link-store span{
+    width: 80%;
+    height: 1.5rem;
+    padding: 0.5rem;
+    border: 1px solid var(--lite);
+    margin-right: 10px;
+
+    border-radius: 20px;
+    overflow: scroll;
+}
+
+
+.url-event{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.url-meta div{
+    margin: 10px 0;
+}
+
+.url-event div{
+    padding: 15px;
+    border: 1px solid var(--lite);
+    margin: 10px;
+
+    border-radius: 30px;
+}
+
+.action-button:hover{
+    background: rgba( 255, 255, 255, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

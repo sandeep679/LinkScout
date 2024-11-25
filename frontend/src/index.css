@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@500&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sofia&display=swap');
+:root {
+    --lite: #C9CED6;
+    --brand-blue:#144EE3;
+    --lite-gray:#181E29;
+    --mobile:480px;
+    --tablet:768px;
+    --backColor:#0B101B;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    /* color:var(--lite); */
+    font-family: "Montserrat", sans-serif;
+    cursor: default;
+}
+body{
+  color:var(--lite);
+  scrollbar-width: none;
+}
+a{
+  color: var(--lite);
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+

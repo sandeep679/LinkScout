@@ -1,0 +1,77 @@
+.analytics{
+    padding: 100px 32px 0 32px;
+    margin-bottom: 50px;
+
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.chart-area{
+    width: 100%;
+    
+}
+.link-info{
+    padding: 20px 0;
+}
+
+.link-info h1{
+    padding: 10px 0;
+}
+.link-info p{
+    padding: 10px 0;
+}
+
+
+.geo-table {
+    margin-top: 30px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+ .geo-table td {
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 8px;
+  }
+
+  .geo-table th {
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 8px;
+  }
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pie-chart{
+    
+    width: 100vw;
+    margin: 0 auto;
+}
+@media (min-width:768px){
+    .pie-chart{
+    
+        max-width:500px;
+    }
+}
+@media (max-width:768px){
+    .pie-chart{
+    
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+.pie-chart h2{
+    text-align: center;
+    margin: 20px 0;
+}
+  
+
+
